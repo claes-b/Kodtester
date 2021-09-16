@@ -5,10 +5,9 @@ body {
 header {
     background-image: url("./assets/crocodile-forest.jpg");
     background-repeat: no-repeat;
-    height: 350px;
+    height: 348px;
 }
 main {
-    background-color: white;
     height: calc(100vh - 350px - 45px);
     overflow: auto;
 }
@@ -17,8 +16,25 @@ h1 {
     background-color: #13bae3;
 }
 h1,
-main {
+main, table {
     border-radius: 4px;
+}
+table, main{
+    background-color: white;
+}
+th,td{
+    padding:2px
+}
+th{
+    padding-left: 5px;
+    color: #3d4a0b;
+    border-bottom: 2px solid #3d4a0b !important;
+}
+.event-card{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:white;
+    padding-left: 25px !important;
 }
 footer {
     background-color: #3d4a0b;

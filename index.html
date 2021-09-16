@@ -8,21 +8,41 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 
 
     <title>MonkeyTime</title>
 </head>
 
 <body style="background-color: #7aa925;">
-    <header class="p-2 d-flex justify-content-between">
+    <header class="px-2 d-flex">
         <div>
-
-            <h1 class="px-4 py-2 mt-2" style="max-width:350px">Monkey<span style="color:
+            <h1 class="px-4 py-2 mt-2" style="max-width:350px; margin-right:335px">Monkey<span style="color:
     #FFF">Time</span></h1>
         </div>
 
+        <div class="flex-grow-1 h-100 d-flex mt-0">
+            <div class="d-flex flex-column w-50 justi">
+                <div style="background-color: #E57B15;" class="h-25  d-flex align-items-center event-card">
+                    <i class="fas fa-kiwi-bird mx-2"></i> Öppettider
+                </div>
+                <div style="background-color: #D25A1B; " class="h-25  d-flex align-items-center event-card">
+                    <i class="fas fa-otter mx-2"></i>Köpa biljetter
+                </div>
+                <div style="background-color: #014E22; " class="h-25 d-flex align-items-center event-card">
+                    <i class="fas fa-hippo mx-2"></i> Mata djuren
+                </div>
+                <div style="background-color: #F7B403;" class="h-25 d-flex align-items-center event-card">
+                    <i class="fas fa-crow mx-2"></i> Shop
+                </div>
+            </div>
+
+        </div>
+
         <div class="d-flex align-items-center">
-            <div>
+            <div class="px-2">
                 <h3>Vill du ha vårt nyhetsbrev</h3>
                 <!-- massa accessibility grejer -->
                 <form>
@@ -41,18 +61,20 @@
         </div>
     </header>
 
-    <main class="mx-4 h-100 mt-2 p-2">
-
-
-        <div id="showData" class="w-100 overflow-auto">
-
+    <main class="p-2 mb-2 px-4">
+        <h2>Våra djur</h2>
+        <div id="showData" class="w-100 overflow-auto mt-2">
         </div>
     </main>
 
 
     <script src="index.js"></script>
-    <footer>
-        Kontakt Kontakt Kontakt
+    <footer class="d-flex align-items-center px-4">
+        <i class="fas fa-paw mx-3"></i><strong>MonkeyTime inc.</strong> <i class="fas fa-paw mx-3"></i>Kontaktvägen 23 <i
+            class="fas fa-paw mx-3"></i>orgnr: 550055-8899 <i class="fas fa-paw mx-3"></i>tel: 010-123 4567 <i
+            class="fas fa-paw mx-3"></i> monkeytime@gmail.com
+            <i
+            class="fas fa-paw mx-3"></i>
     </footer>
 </body>
 
