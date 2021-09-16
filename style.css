@@ -1,3 +1,30 @@
-.test {
-    background-color: blue;
+body {
+    color: #354a21;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: url("./assets/crocodile-forest.jpg");
+    background-repeat: no-repeat;
+    height: 350px;
+}
+main {
+    background-color: white;
+    height: calc(100vh - 350px -40px);
+    overflow: auto;
+}
+h1 {
+    color: #354a21 !important;
+    background-color: #13bae3;
+}
+h1,
+main {
+    border-radius: 4px;
+}
+footer {
+    background-color: #3d4a0b;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%
 }
