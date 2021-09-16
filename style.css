@@ -9,7 +9,7 @@ header {
 }
 main {
     background-color: white;
-    height: calc(100vh - 350px -40px);
+    height: calc(100vh - 350px - 45px);
     overflow: auto;
 }
 h1 {

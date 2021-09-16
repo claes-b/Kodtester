@@ -14,17 +14,36 @@
 </head>
 
 <body style="background-color: #7aa925;">
-    <header class="p-2">
-        <h1 class="px-4 py-2 mt-2" style="max-width:350px">Monkey<span style="color:
+    <header class="p-2 d-flex justify-content-between">
+        <div>
+
+            <h1 class="px-4 py-2 mt-2" style="max-width:350px">Monkey<span style="color:
     #FFF">Time</span></h1>
+        </div>
+
+        <div class="d-flex align-items-center">
+            <div>
+                <h3>Vill du ha vårt nyhetsbrev</h3>
+                <!-- massa accessibility grejer -->
+                <form>
+                    <label>Namn:</label>
+                    <input type="text" class="form-control form-control-sm">
+
+                    <label>Epost:</label>
+                    <input type="text" class="form-control form-control-sm">
+
+                    <div class="d-flex justify-content-end mt-2">
+                        <button type="submit" class="btn btn-primary">JA!</button>
+                    </div>
+                </form>
+            </div>
+            <img src="./assets/question.png">
+        </div>
     </header>
 
     <main class="mx-4 h-100 mt-2 p-2">
 
-        <div >
-            <!-- <img src="assets/crocodile.jpg" height="100px"> -->
-            
-        </div>
+
         <div id="showData" class="w-100 overflow-auto">
 
         </div>
